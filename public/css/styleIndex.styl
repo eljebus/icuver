@@ -1,0 +1,159 @@
+@import 'icon.css'
+@import 'skitter.styles.css'
+
+body
+	margin 0
+	padding: 0
+	font-family: 'Droid Serif', serif;
+	
+a
+	color inherit
+	text-decoration none
+	
+	
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+
+#container 
+	display flex
+	flex-direction: column
+	width 1200px
+	margin auto
+	overflow hidden
+	header
+		margin-bottom 6em
+		ul
+			list-style none
+			padding 0
+			margin 0
+			display block
+			width 100%
+			display flex
+			height 200px
+			a
+				width 12.5%
+				height 190px
+				background url('/image/header.png')
+				background-repeat no-repeat
+				background-size: 831%;
+				background-position-y: 82%;
+				transition all ease 0.5s
+				padding 1em
+				padding-top 2em
+				text-align center
+				box-sizing border-box
+				font-size 1.3em
+				color white
+				cursor pointer
+
+				&:hover
+					height 325px
+					padding-top 4em
+			#conte
+				background-position-x: 13.8%;
+			#aseso
+				background-position-x: 28.5%;
+			#alu
+				background-position-x: 42.5%;
+			#gale
+				background-position-x: 56.5%;
+			#hotel
+				background-position-x: 70.8%;
+			#event
+				background-position-x: 85.5%;
+			#contact
+				background-position-x: 99.6%;
+	h1
+		text-align center
+		background #87926A
+		padding 0.5em
+		color white
+		margin-bottom 3em
+		font-size 2em
+		letter-spacing: 0.1em
+		
+	footer
+		margin-top 3em
+		font-size 1.2em
+	#content
+		width 100%
+		#slider
+			height 400px
+			overflow hidden
+			position relative
+			#logo
+				position absolute
+				left 37%
+				top 0
+				width 30%
+				z-index 99
+				border-radius 50%
+				border solid 30px  white
+				margin-top 1em
+				
+		#redes
+			margin-top 4em
+			aside
+				padding: 1em;
+			#fb,#slogan
+				float left 
+				width 30%
+				background #EEB92A
+			#fb
+				font-size 3em
+				font-weight bolder
+				padding 0.2em
+				color white
+				text-align center
+			#slogan
+				float right
+				padding 1em
+				font-size 1.5em
+				color white
+				text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.20);
+
+
+		
+//sombras
+
+.drop-shadow
+	position:relative;
+	padding:1em;
+	background:#fff;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+
+.drop-shadow:before,.drop-shadow:after 
+	content:"";
+	position:absolute;
+	z-index:-2;
+
+
+
+
+.curved:before
+	top:10px;
+	bottom:10px;
+	left:0;
+	right:50%;
+	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.6);
+	-moz-box-shadow:0 0 15px rgba(0,0,0,0.6);
+	box-shadow:0 0 15px rgba(0,0,0,0.6);
+	-moz-border-radius:10px / 100px;
+	border-radius:10px / 100px;
+
+
+
+.curved-hz-1:before {
+	top:50%;
+	bottom:0;
+	left:10px;
+	right:10px;
+	-moz-border-radius:100px / 10px;
+	border-radius:100px / 10px;
+}

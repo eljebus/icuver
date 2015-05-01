@@ -1,0 +1,72 @@
+@import '../style.styl'
+	
+#content
+	position relative
+	min-height 500px
+	nav
+		position fixed
+		margin-top 1em
+		width 150px
+		background rgb(120, 110, 41)
+		color white
+		-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+		ul 
+			list-style none
+			margin 0
+			padding 0
+			li
+				border-bottom solid 1px
+				padding 0.5em
+				transition all 0.5s
+				&:hover
+					cursor pointer
+					padding-left 1em
+			ul
+				padding-left 1em
+				font-size 0.9em
+				li
+					border-bottom 0
+	#mainContainer
+		width 800px
+		margin-top 1em
+		margin-left 200px
+		min-height 100px
+		ul
+			list-style none
+			padding-left 0
+			margin 0
+			display flex
+			flex-wrap: wrap
+			#add
+				background #e2c134;
+				color white
+				text-align center
+				padding 1em
+				label
+					font-size 2em
+
+			li
+				overflow hidden
+				width 23.1%
+				margin-bottom 1em
+				position relative
+				margin-right 20px
+				&:nth-child(4n)
+					margin-right 0
+				span
+					position absolute
+					top 0.5em
+					left 0.5em
+					text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+					color red
+					cursor pointer
+					transition all ease 0.5s
+					&:hover
+						font-size 1.2em
+				img	
+					width 100%
+			
+.espaciado
+	justify-content space-between

@@ -1,0 +1,64 @@
+@import 'style.styl'
+
+
+#container
+	background none
+	overflow hidden
+#content
+	flex-direction: column
+	flex-wrap wrap
+	background none
+	justify-content: center
+	width 80%
+	margin auto
+	h2
+		font-size 2.5em
+		flex 1 100%
+		text-align center
+		margin-bottom 0
+	#img
+		align-self: flex-end;
+		width 100px
+
+	#izquierda
+		width: 0;
+		height: 0;
+		border-bottom: 40px solid rgb(181, 155, 45);
+		border-right: 190px solid transparent;
+		align-self: flex-start;  
+		transition all ease 0.5s
+	#formContainer
+		padding 3em
+		padding-left 7em
+		background rgb(181, 155, 45);
+		display block !important
+		label
+			width 200px
+			display inline-block 
+			font-size 1.2em
+			color white
+			vertical-align middle
+		input
+			padding 01em
+			width 350px
+			margin-bottom 1.5em
+			border none
+			border-radius 5px
+	#slogan
+		width 40%
+		background #EEB92A
+		margin auto
+		padding 1em
+		font-size 1.3em
+		text-align center
+		margin-top 2em
+		color white
+		text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.20);
+		box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+		display block
+		border none
+		margin-bottom 5em
+		font-family: 'Droid Serif',serif;
+		cursor pointer
+
+		

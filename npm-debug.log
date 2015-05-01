@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'git-ftp',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'git-ftp', null ]
+6 verbose cache add name=undefined spec="git-ftp" args=["git-ftp",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'git-ftp',
+7 verbose parsed url   path: 'git-ftp',
+7 verbose parsed url   href: 'git-ftp' }
+8 silly lockFile e59ea5e4-git-ftp git-ftp
+9 verbose lock git-ftp C:\Users\eljebuspc\AppData\Roaming\npm-cache\e59ea5e4-git-ftp.lock
+10 silly lockFile e59ea5e4-git-ftp git-ftp
+11 silly lockFile e59ea5e4-git-ftp git-ftp
+12 verbose addNamed [ 'git-ftp', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 0557b561-git-ftp git-ftp@
+15 verbose lock git-ftp@ C:\Users\eljebuspc\AppData\Roaming\npm-cache\0557b561-git-ftp.lock
+16 silly addNameRange { name: 'git-ftp', range: '*', hasData: false }
+17 verbose url raw git-ftp
+18 verbose url resolving [ 'https://registry.npmjs.org/', './git-ftp' ]
+19 verbose url resolved https://registry.npmjs.org/git-ftp
+20 info trying registry request attempt 1 at 15:59:24
+21 http GET https://registry.npmjs.org/git-ftp
+22 http 404 https://registry.npmjs.org/git-ftp
+23 verbose headers { date: 'Mon, 16 Mar 2015 21:59:29 GMT',
+23 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '51',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '0',
+23 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1426543169.015909,VS0,VE69',
+23 verbose headers   'keep-alive': 'timeout=10, max=50',
+23 verbose headers   connection: 'Keep-Alive' }
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Mon, 16 Mar 2015 21:59:29 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '51',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1426543169.015909,VS0,VE69',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile 0557b561-git-ftp git-ftp@
+26 silly lockFile 0557b561-git-ftp git-ftp@
+27 error 404 404 Not Found: git-ftp
+27 error 404
+27 error 404 'git-ftp' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Windows_NT 6.2.9200
+29 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "git-ftp" "-g"
+30 error cwd C:\laravel\icuver\icuver
+31 error node -v v0.10.28
+32 error npm -v 1.4.9
+33 error code E404
+34 verbose exit [ 1, true ]

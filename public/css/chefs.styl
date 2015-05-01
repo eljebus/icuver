@@ -1,0 +1,41 @@
+@import 'style.styl'
+
+
+#container
+	background none
+	overflow hidden
+#content
+	flex-direction: row
+	flex-wrap wrap
+	background none
+	justify-content: center
+	h3
+		background #806b3c
+		text-align center
+		color white
+		padding 1em
+		margin 0
+		width 100%
+		height 56px
+	article
+		width 100%
+		padding 2em
+		img
+			display inline-block
+			vertical-align top
+			width 190px
+			margin-right 50px
+		.info
+			width 680px
+			display inline-block
+			vertical-align top
+		&:nth-child(2n+1)
+			background #e8d994
+			.info
+				text-align right
+			img
+				display inline-block
+				margin-right 0
+				margin-left 50px
+			
+			

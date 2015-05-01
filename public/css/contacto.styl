@@ -1,0 +1,74 @@
+@import 'style.styl'
+
+
+#container
+	background none
+	overflow hidden
+#content
+	flex-direction: column
+	flex-wrap wrap
+	background none
+	justify-content: center
+	ul 
+		list-style none
+		width 70%
+		margin auto
+		margin-top 2em
+		span
+			font-size 3em
+			
+	#derecha
+		width: 0;
+		height: 0;
+		border-bottom: 50px solid #776d29;
+		border-left: 190px solid transparent;
+		align-self: flex-end;
+		transition all ease 0.5s
+		float right
+		margin-top 2em
+	#izquierda
+		width: 0;
+		height: 0;
+		border-top: 50px solid #776d29;
+		border-right: 190px solid transparent;
+		align-self: flex-start;  
+		transition all ease 0.5s
+
+	#contact
+		width 100%
+		background #776d29
+		color white
+		padding 2em
+		-webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.45);
+		-moz-box-shadow:    0px 4px 5px 0px rgba(0, 0, 0, 0.45);
+		box-shadow:         0px 4px 5px 0px rgba(0, 0, 0, 0.45);
+		text-align center
+		p,aside
+			width 49%
+			display inline-block
+			vertical-align top
+	form
+		margin auto
+		margin-top 3em
+	p
+		text-align center
+	input, textarea
+		width 49.6%
+		margin-bottom 1em
+		padding 1em
+		border solid 1px  #797979
+		font-family: 'Droid Serif', serif;
+	textarea
+		height 150px
+		width 100%
+	button
+		width 150px
+		background: #eeb92a;
+		border none
+		padding 1em
+		float right
+		-webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.45);
+		-moz-box-shadow:    0px 4px 5px 0px rgba(0, 0, 0, 0.45);
+		box-shadow:         0px 4px 5px 0px rgba(0, 0, 0, 0.45);
+		
+		

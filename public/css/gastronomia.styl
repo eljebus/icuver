@@ -1,0 +1,80 @@
+@import 'style.styl'
+
+#container
+	background none
+#content
+	min-height 600px
+	display flex
+	flex-direction: column
+	background none
+	
+	h3
+		background #806b3c
+		text-align center
+		color white
+		padding 1em
+		margin 0
+		width 100%
+		height 56px
+	#materias
+		width 1000px
+		display flex
+		flex-direction: row
+		flex-wrap wrap
+		margin-top 3em
+		#izquierda,#derecha
+			margin-right 10%
+			width 45%
+			article
+				width 100%
+				background url('/image/items.jpg')
+				background-size 208% 221%
+				background-position-x -3px
+				background-position-y -27px
+				height 215px
+				margin-bottom 2em
+				position relative
+				.i-cuatri
+					position absolute
+					width 128px
+					text-align center
+					top 5em
+					left 1em
+					color black !important
+				.i-materias
+					position absolute
+					width 210px
+					right 1em
+					top 0.3em
+					font-size 14px
+					text-align center
+					
+				&:nth-child(2n)
+					margin-right 0
+					background-position-x -3px
+					background-position-y -251px
+					p 
+						color white
+					
+		#derecha
+			margin-right 0
+			article
+				background-position-x -486px
+				.d-cuatri
+					right 1em
+					top 5em
+					position absolute
+					text-align center
+					color black !important
+				.d-materia
+					position absolute
+					width 210px
+					left 1em
+					top 0.3em
+					font-size 14px
+					text-align center
+					color white
+				&:nth-child(2n)
+					background-position-x: 454px;
+					p
+						color black
